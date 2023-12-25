@@ -1,0 +1,213 @@
+@font-face {
+    font-family: comic;
+    src: url(assets\Comica-Boom.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    /* background-color: #00ff4c; */
+    display: flex;
+}
+
+.imgs {
+    width: 50%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav img {
+    width: 140px;
+    height: auto;
+}
+
+.nav ul {
+    width: 50%;
+    margin-right: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav ul li {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(109, 109, 109);
+
+}
+
+.page1 {
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+}
+
+#left-div {
+    width: 50%;
+    margin-left: 7%;
+}
+
+#left-div h1 {
+    text-wrap: wrap;
+    font-size: 70px;
+    line-height: 1em;
+
+}
+
+#left-div p {
+    text-wrap: wrap;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 1.3em;
+    color: #4e4e4e73;
+}
+
+#left-div button {
+    width: 160px;
+    height: 50px;
+    border-radius: 23PX;
+    margin: 25px 25px 25px 0px;
+    background-color: blue;
+    border: none;
+    font-size: 15px;
+    font-style: bold;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+#left-div button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+#right-div {
+    width: 50%;
+    margin-right: 5%;
+}
+
+#right-div img {
+    height: 350px;
+    width: 600px;
+}
+
+.page2 {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.div-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    position: relative;
+}
+.div-up h3 {
+    margin: 5px 0px 5px 5px;
+    font-size: 22px;
+    font-weight: 500;
+    color: orangered;
+
+}
+.div-up h2 {
+    margin: 5px 0px 5px 5px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+.div-up h2 span{
+    color: blue;
+}
+.div-up p {
+    margin: 5px 0px 5px 5px;
+}
+
+.div-down{
+    position: relative;
+    width: 85%;
+    height: 75vh;
+    display: flex;
+    background-color: #EDF2F7;
+    border-radius: 25px;
+    padding: 60px;
+    /* align-items: center; */
+    justify-content: space-evenly; 
+    margin-bottom: 10px;
+}
+
+.card{
+    background-color: #EDF2F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 360px;
+    text-wrap: wrap;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 25px;
+
+}
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.card h2{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+    margin: 10px;
+}
+.card p{
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+    margin: 10px;
+}
+.card button{
+ border: none;
+ background: transparent;
+ font-size: 16px;
+ font-weight: 700;
+ margin: 10px;
+}
+.card button:hover{
+    cursor: pointer;
+}
